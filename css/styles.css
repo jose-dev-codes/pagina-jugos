@@ -1,0 +1,220 @@
+/* ===================== FUENTES ===================== */
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url(fonts/PlayfairDisplay-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(fonts/OpenSans-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(fonts/OpenSans-SemiBold.ttf);
+    font-weight: 600;
+}
+
+/* ===================== RESET ===================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===================== LAYOUT ===================== */
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    background: rgb(210, 222, 255);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.container-sedes {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    margin: 60px 0;
+    text-align: justify;
+}
+
+/* ===================== TIPOGRAFIA ===================== */
+
+h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 2.7rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: "Playfair Display", serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+h4 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+p, li {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.08rem;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+/* ===================== HEADER ===================== */
+
+header.seccion {
+    background: rgb(121, 156, 255);
+    border-radius: 0 0 15px 15px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header p {
+    font-style: italic;
+}
+
+.header-sedes {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.header-sedes h1 {
+    text-align: center;
+}
+
+/* ===================== SECCIONES GENERALES ===================== */
+
+.seccion {
+    width: 100%;
+    height: auto;
+    padding:30px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    transition: all 0.20s ease;
+}
+
+.seccion img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom:20px;
+}
+
+.seccion:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+}
+
+section h2, .seccion h2 {
+    margin-bottom: 15px;
+}
+
+.seccion h3, h4 {
+    margin-bottom: 10px;
+}
+
+.seccion p {
+    margin-bottom: 20px;
+}
+
+.lista {
+    padding-left: 25px;
+    margin-bottom: 15px;
+}
+
+.tarjetas-sedes {
+    display: flex;
+    gap: 30px;
+}
+
+/* ===================== COLORES DE SECCIÓN ===================== */
+
+.about-color {
+    background: pink;
+    padding: 30px;
+}
+
+.jugos {
+    background: rgb(162, 218, 255);
+}
+.limon {
+    background: rgb(160, 253, 160);
+}
+
+.naranja {
+    background: rgb(255, 171, 160);
+}
+
+.mandarina {
+    background: rgb(255, 217, 160);
+}
+
+.pomelo {
+    background: rgb(207, 255, 160);
+}
+
+.sede-colombia {
+    background: rgb(255, 245, 157);
+}
+
+.sede-venezuela {
+    background: rgb(135, 180, 255);
+}
+
+/* ===================== HR ===================== */
+
+hr {
+    margin: 15px 0;
+}
+
+/* ===================== FOOTER ===================== */
+
+.footer-content, .container-sedes a {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+footer hr {
+    width: 100%;
+    margin: 15px 0;
+}
+
+footer a, .container-sedes a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.2s ease;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
